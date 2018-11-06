@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{51B3F916-0E9B-42D6-A1A3-C7424158E3EC}</ProjectGuid>
+    <ProjectGuid>{FCA912E8-0DA2-4259-B3F6-02B9CF372946}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My20181106_</RootNamespace>
-    <ProjectName>20181106_callByPointer</ProjectName>
+    <RootNamespace>My20181106_swap</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="callByPointer.cpp" />
+    <ClCompile Include="swap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
